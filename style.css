@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Norse-bold;
+    src: url(Norse-bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+.bg-column{
+    width: 35vw;
+    height: 100vh;
+    background: url(bg.avif);
+    background-size: cover;
+    background-position: center;
+    padding-top: 12%;
+    float: left;
+}
+.logo-text{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text img{
+    height: 90%;
+}
+.logo-text p{
+    font-size: 5rem;
+    margin-left: 10px;
+    font-weight: 800;
+    font-family: Norse-bold;
+}
+.section{
+    width: 63vw;
+    height: 100vh;
+    float: left;
+    padding: 100px 30px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.section p{
+    color:black;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form{
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 20px;
+    padding-left: 30px;
+    width:115%;
+    /* position: absolute;
+    left: 0; */
+    margin-left: -30px;
+}
+.form p{
+    margin-bottom: 25px;
+
+}
+.form td{
+    width: 400px;
+}
+label{
+    font-size: 12px;
+}
+input{
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    margin-top: 30px;
+}
+button{
+    background-color: #596D48;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.btn p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: #596D48;
+}
+
+input#pass:invalid{
+    border: 1px solid red;
+}
